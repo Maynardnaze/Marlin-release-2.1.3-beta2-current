@@ -799,9 +799,10 @@
   //#define PID_BED_DEBUG // Print Bed PID debug data to the serial port.
 
   //GTR MK3s
-  #define DEFAULT_bedKp 23.67
-  #define DEFAULT_bedKi 1.12
-  #define DEFAULT_bedKd 333.21
+#define DEFAULT_bedKp 34.12
+#define DEFAULT_bedKi 1.72
+#define DEFAULT_bedKd 451.28
+
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #else
